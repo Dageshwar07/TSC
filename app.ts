@@ -52,3 +52,15 @@ function getDataAdmin (obj:Admin){
     obj.admin
 
 }
+
+///type aliases
+type sankhya = number;
+
+var e:sankhya;
+
+type value = String|null
+function efg(obj:value){
+
+}
+efg("hii")
+// efg(6)

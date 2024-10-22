@@ -23,3 +23,8 @@ getData({ name: "dageshwar", email: "d@gmail.com", password: "hiii" });
 function getDataAdmin(obj) {
     obj.admin;
 }
+var e;
+function efg(obj) {
+}
+efg("hii");
+// efg(6)
