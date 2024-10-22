@@ -35,3 +35,20 @@ interface User{
 function getData(obj:User){
 }
 getData({name:"dageshwar",email:"d@gmail.com",password:"hiii"})
+
+
+//interface extend
+
+interface User{
+    name:String,
+    email:String,
+    password:String
+}
+
+interface Admin extends User{
+    admin:boolean;
+}
+function getDataAdmin (obj:Admin){
+    obj.admin
+
+}

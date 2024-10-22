@@ -20,3 +20,6 @@ function abcd() {
 function getData(obj) {
 }
 getData({ name: "dageshwar", email: "d@gmail.com", password: "hiii" });
+function getDataAdmin(obj) {
+    obj.admin;
+}
