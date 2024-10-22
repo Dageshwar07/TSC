@@ -6,3 +6,10 @@ console.log(cCopy);
 
 
 let arr:[number,String]=[22,"dageshwar"]
+
+enum UserRoles{
+    ADMIN="admin",
+    GUEST="guest",
+    SUPER_ADMIN="super_user"
+}
+console.log(UserRoles.ADMIN)
