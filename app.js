@@ -12,3 +12,11 @@ var UserRoles;
     UserRoles["SUPER_ADMIN"] = "super_user";
 })(UserRoles || (UserRoles = {}));
 console.log(UserRoles.ADMIN);
+let a = 5;
+console.log(typeof (a));
+function abcd() {
+    console.log(a);
+}
+function getData(obj) {
+}
+getData({ name: "dageshwar", email: "d@gmail.com", password: "hiii" });

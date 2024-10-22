@@ -13,3 +13,25 @@ enum UserRoles{
     SUPER_ADMIN="super_user"
 }
 console.log(UserRoles.ADMIN)
+
+let a:number = 5
+console.log(typeof(a))
+
+
+function abcd ():void{
+    console.log(a);
+    
+}
+
+
+//interfaces
+
+interface User{
+    name:String,
+    email:String,
+    password:String,
+    gender?:String
+}
+function getData(obj:User){
+}
+getData({name:"dageshwar",email:"d@gmail.com",password:"hiii"})
