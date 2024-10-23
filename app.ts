@@ -81,6 +81,17 @@ function hij (a:Admins){
 // class and object
 
 class BottleMaker{
-constructor(public name:String,public price:number)
+constructor(public name:String,public price:number){
+
 }
-new BottleMaker("Milton",1200)
+}
+const b1 =new BottleMaker("Milton",1200)
+
+// default constructor
+
+class HumanMaker{
+    constructor(a:String,age:number=0){
+
+    }
+}
+new HumanMaker("dageshwar")
