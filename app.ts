@@ -81,11 +81,12 @@ function hij (a:Admins){
 // class and object
 
 class BottleMaker{
-constructor(public name:String,public price:number){
+constructor(public name:String,public price:number,public color:String,public material:String){
 
 }
 }
-const b1 =new BottleMaker("Milton",1200)
+const b1 =new BottleMaker("Milton",1200,"yellow","metal")
+const b2 =new BottleMaker("Cello",100,"transparent","plastic")
 
 // default constructor
 
