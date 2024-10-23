@@ -64,3 +64,23 @@ function efg(obj:value){
 }
 efg("hii")
 // efg(6)
+//intersection types
+
+type Users={
+name:String,
+email:String
+
+}
+type Admins = Users & {
+    getDetails(User:String):void
+}
+
+function hij (a:Admins){
+    a.getDetails
+}
+// class and object
+
+class BottleMaker{
+constructor(public name:String,public price:number)
+}
+new BottleMaker("Milton",1200)

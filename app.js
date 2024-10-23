@@ -27,4 +27,7 @@ var e;
 function efg(obj) {
 }
 efg("hii");
-// efg(6)
+function hij(a) {
+    a.getDetails;
+}
+// class and object
