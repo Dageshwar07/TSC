@@ -112,3 +112,4 @@ class Music {
 }
 let m1 = new Music("chal chhaiya chhaiya","dageshwar","",1200,false)
 let m2 = new Music("gadi wala aaya ghar se kachra nikal","nagar palika","kachara.png",2000, true)
+m1.artist="hemant"

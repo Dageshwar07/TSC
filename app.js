@@ -84,8 +84,14 @@ var Music = /** @class */ (function () {
         this.thumbnail = thumbnail;
         this.length = length;
         this.free = free;
+        this.name = name;
+        this.artist = artist;
+        this.free = free;
+        this.thumbnail = thumbnail;
+        this.length = length;
     }
     return Music;
 }());
 var m1 = new Music("chal chhaiya chhaiya", "dageshwar", "", 1200, false);
 var m2 = new Music("gadi wala aaya ghar se kachra nikal", "nagar palika", "kachara.png", 2000, true);
+m1.artist = "hemant";
