@@ -101,6 +101,11 @@ new HumanMaker("dageshwar")
 class Music {
     constructor(public name:string,public artist:string,public thumbnail:string="something.jgp",public length:number,public free:boolean
     ){
+        this.name=name
+        this.artist=artist
+        this.free=free
+        this.thumbnail=thumbnail
+        this.length=length
 
     }
    
